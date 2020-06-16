@@ -1,0 +1,827 @@
+/home/endrol/anaconda3/bin/python3.7 /media/endrol/datafile/pycharmProjects/from_linux/ml_gcn/demo_dr_gcn.py
+[dataset] read /media/endrol/datafile/dataset/dr/idrid/B. Disease Grading/2. Groundtruths/a. IDRiD_Disease Grading_Training Labels.csv
+[dataset] IDRiD classification set=2. Groundtruths/a. IDRiD_Disease Grading_Training Labels number of classes=5  number of images=413
+[dataset] read /media/endrol/datafile/dataset/dr/idrid/B. Disease Grading/2. Groundtruths/b. IDRiD_Disease Grading_Testing Labels.csv
+[dataset] IDRiD classification set=2. Groundtruths/b. IDRiD_Disease Grading_Testing Labels number of classes=5  number of images=103
+lr: [0.0001 0.001 ]
+Training:   0%|          | 0/104 [00:00<?, ?it/s]/media/endrol/datafile/pycharmProjects/from_linux/ml_gcn/engine.py:537: UserWarning: torch.nn.utils.clip_grad_norm is now deprecated in favor of torch.nn.utils.clip_grad_norm_.
+  nn.utils.clip_grad_norm(model.parameters(), max_norm=10.0)
+Training: 100%|██████████| 104/104 [00:35<00:00,  2.90it/s]
+Test:   0%|          | 0/26 [00:00<?, ?it/s]Epoch: [0]	Loss 2.7887160778
+correct number is  130
+total_number is  413
+#### for epoch the accuracy is  0.31476997578692495
+/media/endrol/datafile/pycharmProjects/from_linux/ml_gcn/engine.py:505: UserWarning: volatile was removed and now has no effect. Use `with torch.no_grad():` instead.
+  feature_var.volatile = True
+/media/endrol/datafile/pycharmProjects/from_linux/ml_gcn/engine.py:506: UserWarning: volatile was removed and now has no effect. Use `with torch.no_grad():` instead.
+  target_var.volatile = True
+/media/endrol/datafile/pycharmProjects/from_linux/ml_gcn/engine.py:507: UserWarning: volatile was removed and now has no effect. Use `with torch.no_grad():` instead.
+  inp_var.volatile = True
+Test: 100%|██████████| 26/26 [00:06<00:00,  4.08it/s]
+Test: 	 Loss 1.8839778900
+correct number is  45
+total_number is  103
+
+#################kappa value##############
+0.13054868287003352
+#### for epoch the accuracy is  0.4368932038834951
+save model checkpoint/checkpoint.pth.tar
+ *** best=0.437
+lr: [0.0001 0.001 ]
+Training: 100%|██████████| 104/104 [00:30<00:00,  3.45it/s]
+Test:   0%|          | 0/26 [00:00<?, ?it/s]Epoch: [1]	Loss 1.7741919756
+correct number is  167
+total_number is  413
+#### for epoch the accuracy is  0.4043583535108959
+Test: 100%|██████████| 26/26 [00:06<00:00,  4.26it/s]
+Test: 	 Loss 2.1452980042
+correct number is  30
+total_number is  103
+
+#################kappa value##############
+0.10668884400617784
+#### for epoch the accuracy is  0.2912621359223301
+save model checkpoint/checkpoint.pth.tar
+Training:   0%|          | 0/104 [00:00<?, ?it/s] *** best=0.437
+lr: [0.0001 0.001 ]
+Training: 100%|██████████| 104/104 [00:30<00:00,  3.43it/s]
+Epoch: [2]	Loss 1.8387703896
+correct number is  161
+total_number is  413
+#### for epoch the accuracy is  0.3898305084745763
+Test: 100%|██████████| 26/26 [00:06<00:00,  3.87it/s]
+Test: 	 Loss 1.7344113588
+correct number is  44
+total_number is  103
+
+#################kappa value##############
+0.14636887203258875
+#### for epoch the accuracy is  0.42718446601941745
+save model checkpoint/checkpoint.pth.tar
+ *** best=0.437
+lr: [0.0001 0.001 ]
+Training: 100%|██████████| 104/104 [00:30<00:00,  3.42it/s]
+Epoch: [3]	Loss 1.5491281748
+correct number is  179
+total_number is  413
+#### for epoch the accuracy is  0.43341404358353514
+Test: 100%|██████████| 26/26 [00:06<00:00,  4.14it/s]
+Test: 	 Loss 1.2682337761
+correct number is  47
+total_number is  103
+
+#################kappa value##############
+0.16405797101449282
+#### for epoch the accuracy is  0.4563106796116505
+save model checkpoint/checkpoint.pth.tar
+ *** best=0.456
+lr: [0.0001 0.001 ]
+Training: 100%|██████████| 104/104 [00:31<00:00,  3.35it/s]
+Epoch: [4]	Loss 1.3562781811
+correct number is  200
+total_number is  413
+#### for epoch the accuracy is  0.48426150121065376
+Test: 100%|██████████| 26/26 [00:06<00:00,  4.00it/s]
+Test: 	 Loss 1.9774061441
+correct number is  52
+total_number is  103
+
+#################kappa value##############
+0.24373740282176792
+#### for epoch the accuracy is  0.5048543689320388
+save model checkpoint/checkpoint.pth.tar
+ *** best=0.505
+lr: [0.0001 0.001 ]
+Training: 100%|██████████| 104/104 [00:30<00:00,  3.37it/s]
+Epoch: [5]	Loss 1.3123999834
+correct number is  204
+total_number is  413
+#### for epoch the accuracy is  0.4939467312348668
+Test: 100%|██████████| 26/26 [00:06<00:00,  3.74it/s]
+Test: 	 Loss 1.4717786312
+correct number is  58
+total_number is  103
+
+#################kappa value##############
+0.35174825174825164
+#### for epoch the accuracy is  0.5631067961165048
+save model checkpoint/checkpoint.pth.tar
+ *** best=0.563
+lr: [0.0001 0.001 ]
+Training: 100%|██████████| 104/104 [00:31<00:00,  3.35it/s]
+Test:   0%|          | 0/26 [00:00<?, ?it/s]Epoch: [6]	Loss 1.2817420959
+correct number is  206
+total_number is  413
+#### for epoch the accuracy is  0.49878934624697335
+Test: 100%|██████████| 26/26 [00:06<00:00,  3.80it/s]
+Test: 	 Loss 1.1632134914
+correct number is  49
+total_number is  103
+
+#################kappa value##############
+0.19379620234816652
+#### for epoch the accuracy is  0.47572815533980584
+save model checkpoint/checkpoint.pth.tar
+ *** best=0.563
+lr: [0.0001 0.001 ]
+Training: 100%|██████████| 104/104 [00:34<00:00,  3.02it/s]
+Epoch: [7]	Loss 1.1217358112
+correct number is  216
+total_number is  413
+#### for epoch the accuracy is  0.5230024213075061
+Test: 100%|██████████| 26/26 [00:07<00:00,  3.36it/s]
+Test: 	 Loss 2.8877103329
+correct number is  35
+total_number is  103
+
+#################kappa value##############
+0.036721221290056394
+#### for epoch the accuracy is  0.33980582524271846
+save model checkpoint/checkpoint.pth.tar
+Training:   0%|          | 0/104 [00:00<?, ?it/s] *** best=0.563
+lr: [0.0001 0.001 ]
+Training: 100%|██████████| 104/104 [00:33<00:00,  3.11it/s]
+Epoch: [8]	Loss 1.1348651648
+correct number is  222
+total_number is  413
+#### for epoch the accuracy is  0.5375302663438256
+Test: 100%|██████████| 26/26 [00:06<00:00,  3.75it/s]
+Test: 	 Loss 1.2701185942
+correct number is  57
+total_number is  103
+
+#################kappa value##############
+0.32275586049170957
+#### for epoch the accuracy is  0.5533980582524272
+save model checkpoint/checkpoint.pth.tar
+Training:   0%|          | 0/104 [00:00<?, ?it/s] *** best=0.563
+lr: [0.0001 0.001 ]
+Training: 100%|██████████| 104/104 [00:33<00:00,  3.08it/s]
+Test:   0%|          | 0/26 [00:00<?, ?it/s]Epoch: [9]	Loss 1.1633374691
+correct number is  210
+total_number is  413
+#### for epoch the accuracy is  0.5084745762711864
+Test: 100%|██████████| 26/26 [00:06<00:00,  3.72it/s]
+Test: 	 Loss 1.2804887295
+correct number is  51
+total_number is  103
+
+#################kappa value##############
+0.2504897844948223
+#### for epoch the accuracy is  0.49514563106796117
+save model checkpoint/checkpoint.pth.tar
+Training:   0%|          | 0/104 [00:00<?, ?it/s] *** best=0.563
+lr: [0.0001 0.001 ]
+Training: 100%|██████████| 104/104 [00:33<00:00,  3.15it/s]
+Epoch: [10]	Loss 1.2246936560
+correct number is  208
+total_number is  413
+#### for epoch the accuracy is  0.5036319612590799
+Test: 100%|██████████| 26/26 [00:06<00:00,  3.79it/s]
+Test: 	 Loss 1.4218964577
+correct number is  52
+total_number is  103
+
+#################kappa value##############
+0.2752483443708609
+#### for epoch the accuracy is  0.5048543689320388
+save model checkpoint/checkpoint.pth.tar
+ *** best=0.563
+lr: [0.0001 0.001 ]
+Training: 100%|██████████| 104/104 [00:32<00:00,  3.19it/s]
+Epoch: [11]	Loss 1.1990849972
+correct number is  221
+total_number is  413
+#### for epoch the accuracy is  0.5351089588377724
+Test: 100%|██████████| 26/26 [00:07<00:00,  3.30it/s]
+Test: 	 Loss 1.3541469574
+correct number is  42
+total_number is  103
+
+#################kappa value##############
+0.12905461602439694
+#### for epoch the accuracy is  0.4077669902912621
+save model checkpoint/checkpoint.pth.tar
+ *** best=0.563
+lr: [0.0001 0.001 ]
+Training: 100%|██████████| 104/104 [00:34<00:00,  2.99it/s]
+Test:   0%|          | 0/26 [00:00<?, ?it/s]Epoch: [12]	Loss 1.0872625113
+correct number is  228
+total_number is  413
+#### for epoch the accuracy is  0.5520581113801453
+Test: 100%|██████████| 26/26 [00:07<00:00,  3.27it/s]
+Test: 	 Loss 1.2077093124
+correct number is  55
+total_number is  103
+
+#################kappa value##############
+0.34792930625164864
+#### for epoch the accuracy is  0.5339805825242718
+save model checkpoint/checkpoint.pth.tar
+Training:   0%|          | 0/104 [00:00<?, ?it/s] *** best=0.563
+lr: [0.0001 0.001 ]
+Training: 100%|██████████| 104/104 [00:33<00:00,  3.12it/s]
+Test:   0%|          | 0/26 [00:00<?, ?it/s]Epoch: [13]	Loss 1.0739617348
+correct number is  237
+total_number is  413
+#### for epoch the accuracy is  0.5738498789346247
+Test: 100%|██████████| 26/26 [00:06<00:00,  3.72it/s]
+Test: 	 Loss 1.1089105606
+correct number is  49
+total_number is  103
+
+#################kappa value##############
+0.22985322625311544
+#### for epoch the accuracy is  0.47572815533980584
+save model checkpoint/checkpoint.pth.tar
+ *** best=0.563
+lr: [0.0001 0.001 ]
+Training: 100%|██████████| 104/104 [00:31<00:00,  3.26it/s]
+Epoch: [14]	Loss 0.9425825477
+correct number is  241
+total_number is  413
+#### for epoch the accuracy is  0.5835351089588378
+Test: 100%|██████████| 26/26 [00:07<00:00,  3.64it/s]
+Test: 	 Loss 1.1848824024
+correct number is  55
+total_number is  103
+
+#################kappa value##############
+0.33850682365533846
+#### for epoch the accuracy is  0.5339805825242718
+save model checkpoint/checkpoint.pth.tar
+ *** best=0.563
+lr: [0.0001 0.001 ]
+Training: 100%|██████████| 104/104 [00:32<00:00,  3.24it/s]
+Test:   0%|          | 0/26 [00:00<?, ?it/s]Epoch: [15]	Loss 1.0680525303
+correct number is  227
+total_number is  413
+#### for epoch the accuracy is  0.549636803874092
+Test: 100%|██████████| 26/26 [00:06<00:00,  3.90it/s]
+Test: 	 Loss 1.3183791637
+correct number is  57
+total_number is  103
+
+#################kappa value##############
+0.32497506767345774
+#### for epoch the accuracy is  0.5533980582524272
+save model checkpoint/checkpoint.pth.tar
+ *** best=0.563
+lr: [0.0001 0.001 ]
+Training: 100%|██████████| 104/104 [00:33<00:00,  3.07it/s]
+Test:   0%|          | 0/26 [00:00<?, ?it/s]Epoch: [16]	Loss 1.0004986525
+correct number is  247
+total_number is  413
+#### for epoch the accuracy is  0.5980629539951574
+Test: 100%|██████████| 26/26 [00:09<00:00,  2.68it/s]
+Test: 	 Loss 1.1760697365
+correct number is  56
+total_number is  103
+
+#################kappa value##############
+0.36702405857740594
+#### for epoch the accuracy is  0.5436893203883495
+save model checkpoint/checkpoint.pth.tar
+ *** best=0.563
+lr: [0.0001 0.001 ]
+Training: 100%|██████████| 104/104 [00:37<00:00,  2.75it/s]
+Test:   0%|          | 0/26 [00:00<?, ?it/s]Epoch: [17]	Loss 0.9393452406
+correct number is  254
+total_number is  413
+#### for epoch the accuracy is  0.6150121065375302
+Test: 100%|██████████| 26/26 [00:09<00:00,  2.76it/s]
+Test: 	 Loss 1.5338158607
+correct number is  48
+total_number is  103
+
+#################kappa value##############
+0.22492817074839222
+#### for epoch the accuracy is  0.46601941747572817
+save model checkpoint/checkpoint.pth.tar
+ *** best=0.563
+lr: [0.0001 0.001 ]
+Training: 100%|██████████| 104/104 [00:37<00:00,  2.76it/s]
+Test:   0%|          | 0/26 [00:00<?, ?it/s]Epoch: [18]	Loss 1.0327128172
+correct number is  251
+total_number is  413
+#### for epoch the accuracy is  0.6077481840193705
+Test: 100%|██████████| 26/26 [00:09<00:00,  2.80it/s]
+Test: 	 Loss 1.2578037977
+correct number is  52
+total_number is  103
+
+#################kappa value##############
+0.31333333333333335
+#### for epoch the accuracy is  0.5048543689320388
+save model checkpoint/checkpoint.pth.tar
+ *** best=0.563
+lr: [0.0001 0.001 ]
+Training: 100%|██████████| 104/104 [00:37<00:00,  2.75it/s]
+Epoch: [19]	Loss 1.0177114010
+correct number is  246
+total_number is  413
+#### for epoch the accuracy is  0.5956416464891041
+Test: 100%|██████████| 26/26 [00:08<00:00,  2.94it/s]
+Test: 	 Loss 1.0209108591
+correct number is  64
+total_number is  103
+
+#################kappa value##############
+0.4363687385996914
+#### for epoch the accuracy is  0.6213592233009708
+save model checkpoint/checkpoint.pth.tar
+ *** best=0.621
+lr: [0.0001 0.001 ]
+Training: 100%|██████████| 104/104 [00:38<00:00,  2.73it/s]
+Epoch: [20]	Loss 1.0331579447
+correct number is  239
+total_number is  413
+#### for epoch the accuracy is  0.5786924939467313
+Test: 100%|██████████| 26/26 [00:07<00:00,  3.50it/s]
+Test: 	 Loss 1.1426972151
+correct number is  64
+total_number is  103
+
+#################kappa value##############
+0.43494162329441544
+#### for epoch the accuracy is  0.6213592233009708
+save model checkpoint/checkpoint.pth.tar
+ *** best=0.621
+lr: [0.0001 0.001 ]
+Training: 100%|██████████| 104/104 [00:37<00:00,  2.77it/s]
+Test:   0%|          | 0/26 [00:00<?, ?it/s]Epoch: [21]	Loss 0.9740544558
+correct number is  259
+total_number is  413
+#### for epoch the accuracy is  0.6271186440677966
+Test: 100%|██████████| 26/26 [00:06<00:00,  3.84it/s]
+Test: 	 Loss 0.9860731959
+correct number is  61
+total_number is  103
+
+#################kappa value##############
+0.4304897314375986
+#### for epoch the accuracy is  0.5922330097087378
+save model checkpoint/checkpoint.pth.tar
+ *** best=0.621
+lr: [0.0001 0.001 ]
+Training: 100%|██████████| 104/104 [00:31<00:00,  3.33it/s]
+Epoch: [22]	Loss 0.9701720476
+correct number is  247
+total_number is  413
+#### for epoch the accuracy is  0.5980629539951574
+Test: 100%|██████████| 26/26 [00:06<00:00,  3.76it/s]
+Test: 	 Loss 1.1059393883
+correct number is  67
+total_number is  103
+
+#################kappa value##############
+0.482628714943491
+#### for epoch the accuracy is  0.6504854368932039
+save model checkpoint/checkpoint.pth.tar
+ *** best=0.650
+lr: [0.0001 0.001 ]
+Training: 100%|██████████| 104/104 [00:33<00:00,  3.06it/s]
+Epoch: [23]	Loss 0.9302673936
+correct number is  254
+total_number is  413
+#### for epoch the accuracy is  0.6150121065375302
+Test: 100%|██████████| 26/26 [00:07<00:00,  3.51it/s]
+Test: 	 Loss 1.0075883865
+correct number is  66
+total_number is  103
+
+#################kappa value##############
+0.4783025325119781
+#### for epoch the accuracy is  0.6407766990291263
+save model checkpoint/checkpoint.pth.tar
+Training:   0%|          | 0/104 [00:00<?, ?it/s] *** best=0.650
+lr: [0.0001 0.001 ]
+Training: 100%|██████████| 104/104 [00:34<00:00,  3.02it/s]
+Epoch: [24]	Loss 0.9664810896
+correct number is  247
+total_number is  413
+#### for epoch the accuracy is  0.5980629539951574
+Test: 100%|██████████| 26/26 [00:06<00:00,  4.09it/s]
+Test: 	 Loss 1.2829819918
+correct number is  53
+total_number is  103
+
+#################kappa value##############
+0.3124165554072096
+#### for epoch the accuracy is  0.5145631067961165
+save model checkpoint/checkpoint.pth.tar
+ *** best=0.650
+lr: [0.0001 0.001 ]
+Training: 100%|██████████| 104/104 [00:30<00:00,  3.38it/s]
+Epoch: [25]	Loss 0.9749790430
+correct number is  242
+total_number is  413
+#### for epoch the accuracy is  0.585956416464891
+Test: 100%|██████████| 26/26 [00:06<00:00,  3.98it/s]
+Test: 	 Loss 0.9704919457
+correct number is  59
+total_number is  103
+
+#################kappa value##############
+0.37064296625468673
+#### for epoch the accuracy is  0.5728155339805825
+save model checkpoint/checkpoint.pth.tar
+Training:   0%|          | 0/104 [00:00<?, ?it/s] *** best=0.650
+lr: [0.0001 0.001 ]
+Training: 100%|██████████| 104/104 [00:30<00:00,  3.39it/s]
+Epoch: [26]	Loss 0.8174214363
+correct number is  282
+total_number is  413
+#### for epoch the accuracy is  0.6828087167070218
+Test: 100%|██████████| 26/26 [00:06<00:00,  3.92it/s]
+Test: 	 Loss 1.2393695116
+correct number is  57
+total_number is  103
+
+#################kappa value##############
+0.38618992097421945
+#### for epoch the accuracy is  0.5533980582524272
+save model checkpoint/checkpoint.pth.tar
+ *** best=0.650
+lr: [0.0001 0.001 ]
+Training: 100%|██████████| 104/104 [00:32<00:00,  3.24it/s]
+Test:   0%|          | 0/26 [00:00<?, ?it/s]Epoch: [27]	Loss 0.9556787014
+correct number is  248
+total_number is  413
+#### for epoch the accuracy is  0.6004842615012107
+Test: 100%|██████████| 26/26 [00:07<00:00,  3.56it/s]
+Test: 	 Loss 1.0832613707
+correct number is  62
+total_number is  103
+
+#################kappa value##############
+0.4335345405767941
+#### for epoch the accuracy is  0.6019417475728155
+save model checkpoint/checkpoint.pth.tar
+ *** best=0.650
+lr: [0.0001 0.001 ]
+Training: 100%|██████████| 104/104 [00:31<00:00,  3.34it/s]
+Test:   0%|          | 0/26 [00:00<?, ?it/s]Epoch: [28]	Loss 0.9440419674
+correct number is  249
+total_number is  413
+#### for epoch the accuracy is  0.6029055690072639
+Test: 100%|██████████| 26/26 [00:06<00:00,  3.99it/s]
+Test: 	 Loss 1.2709298134
+correct number is  62
+total_number is  103
+
+#################kappa value##############
+0.42126901466356026
+#### for epoch the accuracy is  0.6019417475728155
+save model checkpoint/checkpoint.pth.tar
+ *** best=0.650
+lr: [0.0001 0.001 ]
+Training: 100%|██████████| 104/104 [00:30<00:00,  3.37it/s]
+Epoch: [29]	Loss 0.9810211658
+correct number is  260
+total_number is  413
+#### for epoch the accuracy is  0.6295399515738499
+Test: 100%|██████████| 26/26 [00:06<00:00,  3.99it/s]
+Test: 	 Loss 1.6656175852
+correct number is  39
+total_number is  103
+
+#################kappa value##############
+0.14644568172989747
+#### for epoch the accuracy is  0.3786407766990291
+save model checkpoint/checkpoint.pth.tar
+ *** best=0.650
+lr: [1.e-05 1.e-04]
+Training: 100%|██████████| 104/104 [00:30<00:00,  3.37it/s]
+Epoch: [30]	Loss 0.8113196492
+correct number is  277
+total_number is  413
+#### for epoch the accuracy is  0.6707021791767555
+Test: 100%|██████████| 26/26 [00:06<00:00,  3.92it/s]
+Test: 	 Loss 0.9735150337
+correct number is  67
+total_number is  103
+
+#################kappa value##############
+0.49898662342926625
+#### for epoch the accuracy is  0.6504854368932039
+save model checkpoint/checkpoint.pth.tar
+ *** best=0.650
+lr: [1.e-05 1.e-04]
+Training: 100%|██████████| 104/104 [00:30<00:00,  3.36it/s]
+Epoch: [31]	Loss 0.7954577208
+correct number is  287
+total_number is  413
+#### for epoch the accuracy is  0.6949152542372882
+Test: 100%|██████████| 26/26 [00:06<00:00,  3.85it/s]
+Test: 	 Loss 1.0463944674
+correct number is  64
+total_number is  103
+
+#################kappa value##############
+0.4450124343741365
+#### for epoch the accuracy is  0.6213592233009708
+save model checkpoint/checkpoint.pth.tar
+ *** best=0.650
+lr: [1.e-05 1.e-04]
+Training: 100%|██████████| 104/104 [00:30<00:00,  3.38it/s]
+Test:   0%|          | 0/26 [00:00<?, ?it/s]Epoch: [32]	Loss 0.7347319126
+correct number is  275
+total_number is  413
+#### for epoch the accuracy is  0.6658595641646489
+Test: 100%|██████████| 26/26 [00:06<00:00,  4.08it/s]
+Test: 	 Loss 1.3069515228
+correct number is  56
+total_number is  103
+
+#################kappa value##############
+0.3366675801589476
+#### for epoch the accuracy is  0.5436893203883495
+save model checkpoint/checkpoint.pth.tar
+ *** best=0.650
+lr: [1.e-05 1.e-04]
+Training: 100%|██████████| 104/104 [00:30<00:00,  3.38it/s]
+Test:   0%|          | 0/26 [00:00<?, ?it/s]Epoch: [33]	Loss 0.7614223361
+correct number is  282
+total_number is  413
+#### for epoch the accuracy is  0.6828087167070218
+Test: 100%|██████████| 26/26 [00:06<00:00,  3.97it/s]
+Test: 	 Loss 1.0759562254
+correct number is  58
+total_number is  103
+
+#################kappa value##############
+0.37735088662009675
+#### for epoch the accuracy is  0.5631067961165048
+save model checkpoint/checkpoint.pth.tar
+ *** best=0.650
+lr: [1.e-05 1.e-04]
+Training: 100%|██████████| 104/104 [00:30<00:00,  3.37it/s]
+Test:   0%|          | 0/26 [00:00<?, ?it/s]Epoch: [34]	Loss 0.7371498942
+correct number is  283
+total_number is  413
+#### for epoch the accuracy is  0.6852300242130751
+Test: 100%|██████████| 26/26 [00:06<00:00,  3.78it/s]
+Test: 	 Loss 1.0125889778
+correct number is  63
+total_number is  103
+
+#################kappa value##############
+0.44354403025391675
+#### for epoch the accuracy is  0.6116504854368932
+save model checkpoint/checkpoint.pth.tar
+Training:   0%|          | 0/104 [00:00<?, ?it/s] *** best=0.650
+lr: [1.e-05 1.e-04]
+Training: 100%|██████████| 104/104 [00:30<00:00,  3.37it/s]
+Test:   0%|          | 0/26 [00:00<?, ?it/s]Epoch: [35]	Loss 0.7013778687
+correct number is  295
+total_number is  413
+#### for epoch the accuracy is  0.7142857142857143
+Test: 100%|██████████| 26/26 [00:06<00:00,  3.92it/s]
+Test: 	 Loss 1.1216497421
+correct number is  62
+total_number is  103
+
+#################kappa value##############
+0.42552033736906536
+#### for epoch the accuracy is  0.6019417475728155
+save model checkpoint/checkpoint.pth.tar
+ *** best=0.650
+lr: [1.e-05 1.e-04]
+Training: 100%|██████████| 104/104 [00:31<00:00,  3.32it/s]
+Epoch: [36]	Loss 0.7629095912
+correct number is  277
+total_number is  413
+#### for epoch the accuracy is  0.6707021791767555
+Test: 100%|██████████| 26/26 [00:06<00:00,  4.06it/s]
+Test: 	 Loss 1.1346011162
+correct number is  54
+total_number is  103
+
+#################kappa value##############
+0.32463535394085385
+#### for epoch the accuracy is  0.5242718446601942
+save model checkpoint/checkpoint.pth.tar
+ *** best=0.650
+lr: [1.e-05 1.e-04]
+Training: 100%|██████████| 104/104 [00:30<00:00,  3.37it/s]
+Epoch: [37]	Loss 0.7859820724
+correct number is  287
+total_number is  413
+#### for epoch the accuracy is  0.6949152542372882
+Test: 100%|██████████| 26/26 [00:06<00:00,  4.03it/s]
+Test: 	 Loss 1.0902433395
+correct number is  60
+total_number is  103
+
+#################kappa value##############
+0.3927053338818045
+#### for epoch the accuracy is  0.5825242718446602
+save model checkpoint/checkpoint.pth.tar
+ *** best=0.650
+lr: [1.e-05 1.e-04]
+Training: 100%|██████████| 104/104 [00:30<00:00,  3.36it/s]
+Test:   0%|          | 0/26 [00:00<?, ?it/s]Epoch: [38]	Loss 0.7133359909
+correct number is  290
+total_number is  413
+#### for epoch the accuracy is  0.7021791767554479
+Test: 100%|██████████| 26/26 [00:06<00:00,  4.03it/s]
+Test: 	 Loss 1.1772861481
+correct number is  56
+total_number is  103
+
+#################kappa value##############
+0.34642905359794784
+#### for epoch the accuracy is  0.5436893203883495
+save model checkpoint/checkpoint.pth.tar
+ *** best=0.650
+lr: [1.e-05 1.e-04]
+Training: 100%|██████████| 104/104 [00:30<00:00,  3.37it/s]
+Test:   0%|          | 0/26 [00:00<?, ?it/s]Epoch: [39]	Loss 0.7730048895
+correct number is  286
+total_number is  413
+#### for epoch the accuracy is  0.6924939467312349
+Test: 100%|██████████| 26/26 [00:06<00:00,  3.94it/s]
+Test: 	 Loss 1.2248146534
+correct number is  61
+total_number is  103
+
+#################kappa value##############
+0.41198858230256896
+#### for epoch the accuracy is  0.5922330097087378
+save model checkpoint/checkpoint.pth.tar
+ *** best=0.650
+lr: [1.e-05 1.e-04]
+Training: 100%|██████████| 104/104 [00:30<00:00,  3.37it/s]
+Epoch: [40]	Loss 0.7137873173
+correct number is  300
+total_number is  413
+#### for epoch the accuracy is  0.7263922518159807
+Test: 100%|██████████| 26/26 [00:06<00:00,  4.00it/s]
+Test: 	 Loss 1.0892798901
+correct number is  59
+total_number is  103
+
+#################kappa value##############
+0.381212452211906
+#### for epoch the accuracy is  0.5728155339805825
+save model checkpoint/checkpoint.pth.tar
+ *** best=0.650
+lr: [1.e-05 1.e-04]
+Training: 100%|██████████| 104/104 [00:30<00:00,  3.38it/s]
+Test:   0%|          | 0/26 [00:00<?, ?it/s]Epoch: [41]	Loss 0.7436850071
+correct number is  289
+total_number is  413
+#### for epoch the accuracy is  0.6997578692493946
+Test: 100%|██████████| 26/26 [00:06<00:00,  3.84it/s]
+Test: 	 Loss 1.0526468754
+correct number is  56
+total_number is  103
+
+#################kappa value##############
+0.3472222222222222
+#### for epoch the accuracy is  0.5436893203883495
+save model checkpoint/checkpoint.pth.tar
+Training:   0%|          | 0/104 [00:00<?, ?it/s] *** best=0.650
+lr: [1.e-05 1.e-04]
+Training: 100%|██████████| 104/104 [00:30<00:00,  3.37it/s]
+Test:   0%|          | 0/26 [00:00<?, ?it/s]Epoch: [42]	Loss 0.8042641878
+correct number is  275
+total_number is  413
+#### for epoch the accuracy is  0.6658595641646489
+Test: 100%|██████████| 26/26 [00:06<00:00,  3.97it/s]
+Test: 	 Loss 1.1293783188
+correct number is  61
+total_number is  103
+
+#################kappa value##############
+0.40933915892954664
+#### for epoch the accuracy is  0.5922330097087378
+save model checkpoint/checkpoint.pth.tar
+ *** best=0.650
+lr: [1.e-05 1.e-04]
+Training: 100%|██████████| 104/104 [00:30<00:00,  3.37it/s]
+Epoch: [43]	Loss 0.6952186227
+correct number is  293
+total_number is  413
+#### for epoch the accuracy is  0.7094430992736077
+Test: 100%|██████████| 26/26 [00:06<00:00,  3.98it/s]
+Test: 	 Loss 1.1151525974
+correct number is  63
+total_number is  103
+
+#################kappa value##############
+0.44135593220338976
+#### for epoch the accuracy is  0.6116504854368932
+save model checkpoint/checkpoint.pth.tar
+Training:   0%|          | 0/104 [00:00<?, ?it/s] *** best=0.650
+lr: [1.e-05 1.e-04]
+Training: 100%|██████████| 104/104 [00:30<00:00,  3.37it/s]
+Test:   0%|          | 0/26 [00:00<?, ?it/s]Epoch: [44]	Loss 0.7689707279
+correct number is  274
+total_number is  413
+#### for epoch the accuracy is  0.6634382566585957
+Test: 100%|██████████| 26/26 [00:06<00:00,  3.92it/s]
+Test: 	 Loss 1.0753357410
+correct number is  56
+total_number is  103
+
+#################kappa value##############
+0.3479256465517241
+#### for epoch the accuracy is  0.5436893203883495
+save model checkpoint/checkpoint.pth.tar
+Training:   0%|          | 0/104 [00:00<?, ?it/s] *** best=0.650
+lr: [1.e-05 1.e-04]
+Training: 100%|██████████| 104/104 [00:30<00:00,  3.36it/s]
+Epoch: [45]	Loss 0.7465452552
+correct number is  288
+total_number is  413
+#### for epoch the accuracy is  0.6973365617433414
+Test: 100%|██████████| 26/26 [00:06<00:00,  3.94it/s]
+Test: 	 Loss 1.2138022184
+correct number is  52
+total_number is  103
+
+#################kappa value##############
+0.2856948599401685
+#### for epoch the accuracy is  0.5048543689320388
+save model checkpoint/checkpoint.pth.tar
+Training:   0%|          | 0/104 [00:00<?, ?it/s] *** best=0.650
+lr: [1.e-05 1.e-04]
+Training: 100%|██████████| 104/104 [00:31<00:00,  3.32it/s]
+Test:   0%|          | 0/26 [00:00<?, ?it/s]Epoch: [46]	Loss 0.7382245064
+correct number is  285
+total_number is  413
+#### for epoch the accuracy is  0.6900726392251816
+Test: 100%|██████████| 26/26 [00:06<00:00,  3.94it/s]
+Test: 	 Loss 0.9792155027
+correct number is  60
+total_number is  103
+
+#################kappa value##############
+0.39262205156335717
+#### for epoch the accuracy is  0.5825242718446602
+save model checkpoint/checkpoint.pth.tar
+ *** best=0.650
+lr: [1.e-05 1.e-04]
+Training: 100%|██████████| 104/104 [00:30<00:00,  3.37it/s]
+Test:   0%|          | 0/26 [00:00<?, ?it/s]Epoch: [47]	Loss 0.7564051747
+correct number is  286
+total_number is  413
+#### for epoch the accuracy is  0.6924939467312349
+Test: 100%|██████████| 26/26 [00:06<00:00,  3.98it/s]
+Test: 	 Loss 1.0772947073
+correct number is  57
+total_number is  103
+
+#################kappa value##############
+0.3638560687432868
+#### for epoch the accuracy is  0.5533980582524272
+save model checkpoint/checkpoint.pth.tar
+Training:   0%|          | 0/104 [00:00<?, ?it/s] *** best=0.650
+lr: [1.e-05 1.e-04]
+Training: 100%|██████████| 104/104 [00:30<00:00,  3.36it/s]
+Test:   0%|          | 0/26 [00:00<?, ?it/s]Epoch: [48]	Loss 0.6792488098
+correct number is  294
+total_number is  413
+#### for epoch the accuracy is  0.711864406779661
+Test: 100%|██████████| 26/26 [00:06<00:00,  3.98it/s]
+Test: 	 Loss 1.1940213442
+correct number is  47
+total_number is  103
+
+#################kappa value##############
+0.2306255835667601
+#### for epoch the accuracy is  0.4563106796116505
+save model checkpoint/checkpoint.pth.tar
+Training:   0%|          | 0/104 [00:00<?, ?it/s] *** best=0.650
+lr: [1.e-05 1.e-04]
+Training: 100%|██████████| 104/104 [00:31<00:00,  3.35it/s]
+Test:   0%|          | 0/26 [00:00<?, ?it/s]Epoch: [49]	Loss 0.7291530967
+correct number is  294
+total_number is  413
+#### for epoch the accuracy is  0.711864406779661
+Test: 100%|██████████| 26/26 [00:06<00:00,  4.06it/s]
+Test: 	 Loss 1.1575162411
+correct number is  60
+total_number is  103
+
+#################kappa value##############
+0.4072537473233405
+#### for epoch the accuracy is  0.5825242718446602
+save model checkpoint/checkpoint.pth.tar
+Traceback (most recent call last):
+  File "/media/endrol/datafile/pycharmProjects/from_linux/ml_gcn/demo_dr_gcn.py", line 85, in <module>
+    main_dr()
+  File "/media/endrol/datafile/pycharmProjects/from_linux/ml_gcn/demo_dr_gcn.py", line 82, in main_dr
+    engine.learning(model, criterion, train_dataset, val_dataset, optimizer)
+  File "/media/endrol/datafile/pycharmProjects/from_linux/ml_gcn/engine.py", line 247, in learning
+    np.save('checkpoint/dr_surf2_messidor/loss_recorder_train.npy', self.state['loss_recorder_train'])
+  File "<__array_function__ internals>", line 6, in save
+  File "/home/endrol/anaconda3/lib/python3.7/site-packages/numpy/lib/npyio.py", line 530, in save
+ *** best=0.650
+    fid = open(file, "wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'checkpoint/dr_surf2_messidor/loss_recorder_train.npy'
+
+Process finished with exit code 1
+

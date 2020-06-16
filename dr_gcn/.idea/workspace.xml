@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2f9ae214-39b6-4ca1-a2a5-2dcd89bae982" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1bvt7TvO63bxd4A5sMYmAKA6eqg" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JPMC-tech-task-1-py3" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RunManager" selected="Python.demo_dr_gcn">
+    <configuration name="demo_dr_gcn" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="dr_gcn" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/demo_dr_gcn.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="download_file" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="dr_gcn" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/download_file.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="kmeans_feature_adj" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="dr_gcn" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/kmeans_feature_adj.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.demo_dr_gcn" />
+        <item itemvalue="Python.kmeans_feature_adj" />
+        <item itemvalue="Python.download_file" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2f9ae214-39b6-4ca1-a2a5-2dcd89bae982" name="Default Changelist" comment="" />
+      <created>1589524227226</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589524227226</updated>
+      <workItem from="1589524231658" duration="1005000" />
+      <workItem from="1589525247660" duration="10174000" />
+      <workItem from="1590971475797" duration="236000" />
+      <workItem from="1590972059099" duration="16570000" />
+      <workItem from="1591062458086" duration="17055000" />
+      <workItem from="1592284667204" duration="314000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="775" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1591169516443">
+      <screen x="53" y="27" width="1867" height="1053" />
+    </state>
+    <state x="743" y="310" width="424" height="484" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1590994864588" />
+    <state x="775" y="310" key="FileChooserDialogImpl/53.27.1867.1053@53.27.1867.1053" timestamp="1591169516443" />
+    <state width="1821" height="214" key="GridCell.Tab.0.bottom" timestamp="1591947946745">
+      <screen x="53" y="27" width="1867" height="1053" />
+    </state>
+    <state width="1874" height="363" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1590994686020" />
+    <state width="1821" height="214" key="GridCell.Tab.0.bottom/53.27.1867.1053@53.27.1867.1053" timestamp="1591947946745" />
+    <state width="1807" height="470" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1589777005360" />
+    <state width="1821" height="214" key="GridCell.Tab.0.center" timestamp="1591947946744">
+      <screen x="53" y="27" width="1867" height="1053" />
+    </state>
+    <state width="1874" height="363" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1590994686020" />
+    <state width="1821" height="214" key="GridCell.Tab.0.center/53.27.1867.1053@53.27.1867.1053" timestamp="1591947946744" />
+    <state width="1807" height="470" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1589777005360" />
+    <state width="1821" height="214" key="GridCell.Tab.0.left" timestamp="1591947946744">
+      <screen x="53" y="27" width="1867" height="1053" />
+    </state>
+    <state width="1874" height="363" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1590994686020" />
+    <state width="1821" height="214" key="GridCell.Tab.0.left/53.27.1867.1053@53.27.1867.1053" timestamp="1591947946744" />
+    <state width="1807" height="470" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1589777005360" />
+    <state width="1821" height="214" key="GridCell.Tab.0.right" timestamp="1591947946745">
+      <screen x="53" y="27" width="1867" height="1053" />
+    </state>
+    <state width="1874" height="363" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1590994686020" />
+    <state width="1821" height="214" key="GridCell.Tab.0.right/53.27.1867.1053@53.27.1867.1053" timestamp="1591947946745" />
+    <state width="1807" height="470" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1589777005360" />
+    <state x="490" y="187" key="SettingsEditor" timestamp="1592284980413">
+      <screen x="53" y="27" width="1867" height="1053" />
+    </state>
+    <state x="449" y="187" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1590976810841" />
+    <state x="490" y="187" key="SettingsEditor/53.27.1867.1053@53.27.1867.1053" timestamp="1592284980413" />
+    <state x="716" y="262" key="com.intellij.ide.util.TipDialog" timestamp="1590972061220">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="716" y="262" key="com.intellij.ide.util.TipDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1590972061220" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/dr_gcn$kmeans_feature_adj.coverage" NAME="kmeans_feature_adj Coverage Results" MODIFIED="1591062268711" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/dr_gcn$demo_dr_gcn.coverage" NAME="demo_dr_gcn Coverage Results" MODIFIED="1591069951005" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/dr_gcn$download_file.coverage" NAME="download_file Coverage Results" MODIFIED="1590979516137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
