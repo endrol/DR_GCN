@@ -19,6 +19,10 @@ SURF features construct Nodes and their cooccurence construct edge information
 <div align=left>
   
 ## experiment result
-<div align=center><img width="600" src="https://raw.githubusercontent.com/endrol/DR_GCN/master/dr_gcn/IMG/roc_plot%20(1).png"/>
-<div align=center><img width="600" src="https://raw.githubusercontent.com/endrol/DR_GCN/master/dr_gcn/IMG/confusion_matrix%20(1).png"/>
+<div align=center><img width="700" src="https://raw.githubusercontent.com/endrol/DR_GCN/master/dr_gcn/IMG/roc_plot%20(1).png"/>
+<div align=center><img width="700" src="https://raw.githubusercontent.com/endrol/DR_GCN/master/dr_gcn/IMG/confusion_matrix%20(1).png"/>
   <div align=left>
+<img width="400" src="https://raw.githubusercontent.com/endrol/DR_GCN/master/dr_gcn/IMG/chart.png"/>
+
+# Deploying details
+The DR_GCN model definition can be found in [a relative link](dr_gcn/demo_dr_gcn.py)
