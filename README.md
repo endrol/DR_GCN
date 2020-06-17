@@ -2,7 +2,7 @@
 ## diabetic retinopathy grading using lesion correlation learned by Graph Convolution Network    
 Network takes Diabetic Retinopathy fundus images as input, output the grading result.
 <div align=center><img width="500" src="https://raw.githubusercontent.com/endrol/DR_GCN/master/dr_gcn/IMG/gradign%20(1).png"/>
-  
+
 ## Whole model structure shows like this.   
 
 <div align=center><img width="500" src="https://raw.githubusercontent.com/endrol/DR_GCN/master/dr_gcn/IMG/strfinal.png"/>  
