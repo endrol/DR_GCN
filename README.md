@@ -25,4 +25,5 @@ SURF features construct Nodes and their cooccurence construct edge information
 <img width="400" src="https://raw.githubusercontent.com/endrol/DR_GCN/master/dr_gcn/IMG/chart.png"/>
 
 # Deploying details
-The DR_GCN model definition can be found in [a relative link](dr_gcn/demo_dr_gcn.py)
+The DR_GCN model definition can be found in [demo_dr_gcn.py](dr_gcn/demo_dr_gcn.py)
+SURF extraction and clustering process to get the Nodes and Edge information can be found in [kmeans_feature_adj.py](dr_gcn/kmeans_feature_adj.py) and [surf_feature.py](dr_gcn/surf_feature.py)
